@@ -1,15 +1,19 @@
 {
-  "name": "learn-starter",
+  "name": "radionet1490-nxtjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4164",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 4154"
   },
   "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "moment": "^2.29.1",
     "next": "^10.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1"
   }
 }
